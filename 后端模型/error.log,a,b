@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "getCaption.py", line 98, in <module>
+    getCaption(image_path)
+  File "getCaption.py", line 50, in getCaption
+    time.sleep(random.random())#每隔一秒执行一次
+KeyboardInterrupt

@@ -1,0 +1,5 @@
+Model/predict_result/*
+Model/CN_SoftAtt/__pycache__
+Model/CN_SoftAtt/data/WORDMAP.json
+Model/CN_SoftAtt/models/BEST_checkpoint_11.pth.tar
+uploads/*
