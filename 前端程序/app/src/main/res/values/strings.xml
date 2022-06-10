@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">言图</string>
+
+    <string name="btn_send">拍照</string>
+    <string name="btn_store">STORE</string>
+
+    <string name="album_name">PhotoBox</string>
+
+
+</resources>

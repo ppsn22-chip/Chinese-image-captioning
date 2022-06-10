@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TakePictureAndUpload.iml" filepath="$PROJECT_DIR$/.idea/modules/TakePictureAndUpload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TakePictureAndUpload.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TakePictureAndUpload.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons-logging-1.1.3/TakePictureAndUpload.commons-logging-1.1.3.iml" filepath="$PROJECT_DIR$/.idea/modules/commons-logging-1.1.3/TakePictureAndUpload.commons-logging-1.1.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpclient-4.3.4/TakePictureAndUpload.httpclient-4.3.4.iml" filepath="$PROJECT_DIR$/.idea/modules/httpclient-4.3.4/TakePictureAndUpload.httpclient-4.3.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpcore-4.3.2/TakePictureAndUpload.httpcore-4.3.2.iml" filepath="$PROJECT_DIR$/.idea/modules/httpcore-4.3.2/TakePictureAndUpload.httpcore-4.3.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpmime-4.3.4/TakePictureAndUpload.httpmime-4.3.4.iml" filepath="$PROJECT_DIR$/.idea/modules/httpmime-4.3.4/TakePictureAndUpload.httpmime-4.3.4.iml" />
+    </modules>
+  </component>
+</project>

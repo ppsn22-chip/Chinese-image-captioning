@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo4"
+    tools:context="nelson.takepicture.MainActivity">
+
+
+
+
+    <!--    新的界面-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/mImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/captionTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:orientation="horizontal"
+            />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/size_16dp">
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/takePhotoBtn"
+                android:layout_marginEnd="@dimen/size_16dp"
+                android:layout_marginRight="@dimen/size_16dp"
+                android:layout_marginStart="@dimen/size_8dp"
+                android:layout_marginLeft="@dimen/size_8dp"
+                android:layout_width="0dp"
+                android:layout_height="30mm"
+                android:layout_weight="1"
+                android:background="@drawable/btn_primary"
+                android:text="@string/btn_send"
+                android:textSize='50dp'
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:padding="@dimen/size_8dp" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
